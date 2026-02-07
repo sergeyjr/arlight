@@ -34,9 +34,13 @@ EditableTrait: добавляет свойства/методы для реда�
 
 */
 
-require_once __DIR__ . '/autoloader.php';
+use Project\classes\InputNumber;
+use Project\classes\InputText;
+use Project\classes\Link;
+use Project\classes\SpanNumber;
+use Project\classes\SpanText;
 
-use Project\Classes\{InputText, InputNumber, SpanText, SpanNumber, Link};
+require_once __DIR__ . '/autoloader.php';
 
 // Способ 1 - Передача значений через конструктор
 
